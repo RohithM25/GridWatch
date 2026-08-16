@@ -19,3 +19,6 @@ dist/
 *.log
 .vscode/
 .idea/
+
+# Internal planning docs
+PLAN.md

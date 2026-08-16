@@ -4,7 +4,7 @@ A simulated battery-plant monitoring & control application — field-facing soft
 commissioning, monitoring, and controlling a single battery installation (not a
 fleet-aggregation "many customers' devices" model).
 
-> Status: Phase 0 (scaffolding). See [PLAN.md](PLAN.md) for the full roadmap.
+> Status: Phase 0 (scaffolding).
 
 ## Architecture
 
