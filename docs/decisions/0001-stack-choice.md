@@ -18,10 +18,10 @@ choosing between Python and Go for the backend.
   — makes the project's code more immediately legible to a wider set of reviewers.
 - FastAPI's typed request/response models and auto-generated OpenAPI docs are a good
   fit for demonstrating REST API design decisions explicitly.
-- Go was the other option on the table — it maps more directly onto Form Energy's
-  actual stack and would read a bit stronger for the industrial-protocol phase
-  (Modbus-style register interface), but costs more scaffolding time and is a less
-  common expectation at the junior level. Revisit if a Go rewrite of a specific
+- Go was the other option on the table — it's a common stack choice in industrial/
+  hardware-adjacent software and would read a bit stronger for the industrial-protocol
+  phase (Modbus-style register interface), but costs more scaffolding time and is a
+  less common expectation at the junior level. Revisit if a Go rewrite of a specific
   service (e.g. the Modbus device simulator) becomes worth it as a standalone
   portfolio signal.
 - React (Vite) chosen over alternatives mainly because Vite's dev experience is fast
